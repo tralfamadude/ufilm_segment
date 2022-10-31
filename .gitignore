@@ -1,0 +1,20 @@
+archive-hocr-tools
+.idea
+*.o
+*.a
+*.pyc
+#*#
+*~
+*.swp
+*.DS_Store
+[Tt]humbs.db
+*.log
+__pycache__/
+
+#  intellij PyCharm local files
+misc.xml
+modules.xml
+pdf_trio.iml
+vcs.xml
+workspace.xml
+

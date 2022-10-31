@@ -1,0 +1,23 @@
+{
+  "training_params" : {
+      "learning_rate": 5e-5,
+      "batch_size": 1,
+      "make_patches": false,
+      "training_margin" : 0,
+      "n_epochs": 30,
+      "data_augmentation" : true,
+      "data_augmentation_max_rotation" : 0.02,
+      "data_augmentation_max_scaling" : 0.02,
+      "data_augmentation_flip_lr": true,
+      "data_augmentation_flip_ud": false,
+      "data_augmentation_color": false,
+      "evaluate_every_epoch" : 10
+  },
+  "pretrained_model_name" : "resnet50",
+  "prediction_type": "CLASSIFICATION",
+  "train_data" : "@BASE_DIR@/training",
+  "eval_data" : "@BASE_DIR@/eval",
+  "classes_file" : "@BASE_DIR@/classes.txt",
+  "model_output_dir" : "@BASE_DIR@/output",
+  "gpu" : "0"
+}
